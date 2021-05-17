@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.40629.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30002.166
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CocNET", "CocNET\CocNET.csproj", "{5CB1786A-EDC1-4628-A9E7-D06CF80F95CA}"
 EndProject
@@ -13,6 +13,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{70FC74
 		.nuget\NuGet.exe = .nuget\NuGet.exe
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "COCViews", "COCViews\COCViews.csproj", "{73E7EE49-154A-4740-A11C-790D4C64B699}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -28,8 +30,15 @@ Global
 		{9BF84938-B754-45DB-B9C5-3063B09C9DA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9BF84938-B754-45DB-B9C5-3063B09C9DA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9BF84938-B754-45DB-B9C5-3063B09C9DA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73E7EE49-154A-4740-A11C-790D4C64B699}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73E7EE49-154A-4740-A11C-790D4C64B699}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73E7EE49-154A-4740-A11C-790D4C64B699}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73E7EE49-154A-4740-A11C-790D4C64B699}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BCC3D377-69CE-4336-8D9E-FECC68D03845}
 	EndGlobalSection
 EndGlobal
